@@ -18,6 +18,7 @@ public class AdminController {
     @PreAuthorize("hasAuthority('admin:read')")
     public String get() {
 
+
         return "GET:: admin controller";
     }
     @PostMapping
